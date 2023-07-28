@@ -1,0 +1,181 @@
+#intro {
+
+    height: 910px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+body {
+
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#msp-logo1 {
+
+    height: 130px;
+    position: absolute;
+    left: 578px;
+    top: 0px;
+    border: #7fafc76e;
+
+}
+
+#column {
+
+    position: absolute;
+    top: 0px;
+    height: 80px;
+    width: 1357px;
+    left: 0px;
+    background: #90ADBB;
+
+}
+
+.effect {
+
+    animation: transitionIn 3s;
+
+}
+
+@keyframes transitionIn {
+
+    from {
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to {
+
+        opacity: 1;
+        transform: rotateX(0deg);
+
+    }
+}
+/* BUTTONS */
+#home-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 325px;
+    top: 5px;
+
+}
+
+#project-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 450px;
+    top: 5px;
+
+}
+
+#ongoing-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    right: 275px;
+    top: 5px;
+
+}
+
+#contact-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    right: 400px;
+    top: 5px;
+
+}
+
+.line-design {
+
+    position: absolute;
+    transform: rotate(90deg);
+    width: 140px;
+    top: 0px;
+    border-color: #7fafc76e;
+
+}
+
+#line1 {
+
+    left: 215px;
+
+}
+
+#line2 {
+
+    left: 345px;
+
+}
+
+#line3 {
+
+    right: 170px;
+
+}
+
+#line4 {
+
+    right: 307px;
+
+}
+
+#line5 {
+
+    left: 485px;
+
+}
+
+#line6 {
+
+    right: 510px;
+
+}
+
+.slogan-design{
+
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 110px;
+
+}
+#slogan{
+
+left: 350px;
+
+}
